@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types = 1);
+
 namespace Database;
 
 use mysqli;
@@ -14,7 +16,7 @@ class Connection {
         try {
             $this->connection = new mysqli("db", "user", "password", "blog", 3306);
         } catch (Exception $exception) {
-            die("Connection failed: " . $e->getMessage());
+            die("Connection failed: " . $exception->getMessage());
         }
     }
 
