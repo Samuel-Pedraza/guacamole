@@ -16,3 +16,14 @@ It comprises a few things:
 There is a long ways to go and we are currently at the PHP API backend portion (mixed up with ORM)
 
 This is just for fun and learning! :)
+
+
+### ORM
+- [ ] Database Connection
+- [ ] Model generation
+- [ ] model mapping (between model and table)
+- [ ] model management
+- [ ] Migration generation
+- [ ] files to build migrations
+- [ ] migration class and interpretation
+- [ ] Migration management (which ones have run)
