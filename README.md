@@ -19,7 +19,7 @@ This is just for fun and learning! :)
 
 
 ### ORM
-- [ ] Database Connection
+- [x] Database Connection
 - [ ] Model generation
 - [ ] model mapping (between model and table)
 - [ ] model management
@@ -27,3 +27,4 @@ This is just for fun and learning! :)
 - [ ] files to build migrations
 - [ ] migration class and interpretation
 - [ ] Migration management (which ones have run)
+- [ ] Manage secrets

@@ -7,13 +7,14 @@ namespace Database;
 use Database\Connection;
 use Exception;
 
-class Database extends Connection
+
+class Database
 {
+    private $connection;
     
     public function __construct()
     {
-        parent::__construct();
-
+        $this->connection = Connection::getInstance()->getConnection();
     }
 
     public function createTable(string $tableName, array $fields): void
